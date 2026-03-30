@@ -1,0 +1,5 @@
+.wrapper { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.chart { background: #fff; border-radius: 12px; padding: 1.25rem; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+.chartTitle { font-size: 0.95rem; font-weight: 700; color: #1a1a2e; margin-bottom: 0.75rem; }
+.noData { text-align: center; color: #9ca3af; padding: 2rem 0; }
+@media (max-width: 640px) { .wrapper { grid-template-columns: 1fr; } }
